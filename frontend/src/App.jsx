@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import GovDashboard from './pages/GovDashboard.jsx';
 // Import other pages when created
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/gov-dashboard" element={<GovDashboard />} />
         {/* Add more routes as you create pages */}
         {/* <Route path="/deforestation" element={<Deforestation />} /> */}
         {/* <Route path="/landfill" element={<Landfill />} /> */}

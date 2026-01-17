@@ -211,7 +211,6 @@ const AuthPage = () => {
                     <>
                       <li className="flex items-center"><CheckCircle className="w-4 h-4 text-green-400 mr-2" /> Upload pollution images</li>
                       <li className="flex items-center"><CheckCircle className="w-4 h-4 text-green-400 mr-2" /> Track report status</li>
-                      <li className="flex items-center"><CheckCircle className="w-4 h-4 text-green-400 mr-2" /> Real-time notifications</li>
                     </>
                   ) : (
                     <>

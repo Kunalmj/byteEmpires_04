@@ -206,6 +206,13 @@ const handleAuthAction = () => {
     <span>Login / Sign Up</span>
   )}
 </button>
+            <button 
+                onClick={() => window.location.href = '/gov-dashboard'}
+                className="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded-full font-semibold transition transform hover:scale-105 flex items-center space-x-2"
+              >
+                <Shield className="w-4 h-4" />
+                <span>Dashboard</span>
+              </button>
         </div>
       </nav>
 
@@ -324,14 +331,14 @@ const handleAuthAction = () => {
                 </h3>
                 
                 <p className="text-gray-300 mb-6 text-lg">
-                  Monitor vegetation loss, track forest degradation, and analyze land cover changes over time using satellite imagery and NDVI analysis.
+                  Monitor vegetation loss, track forest degradation, and analyze land cover changes over time using satellite imagery and RGB analysis.
                 </p>
 
                 <ul className="space-y-3 mb-8">
                   {[
                     "Satellite image comparison",
-                    "NDVI vegetation index",
-                    "Time-series analysis",
+                    "RGB vegetation index",
+                    "Deforestation severity quantification",
                     "Forest cover mapping"
                   ].map((item, i) => (
                     <li key={i} className="flex items-center text-gray-300">
@@ -372,7 +379,7 @@ const handleAuthAction = () => {
                   {[
                     "AI waste detection",
                     "Illegal dump identification",
-                    "Soil contamination zones",
+                    "CNN based classification",
                     "Real-time monitoring"
                   ].map((item, i) => (
                     <li key={i} className="flex items-center text-gray-300">
@@ -406,7 +413,7 @@ const handleAuthAction = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8 text-white">
+          <div className="grid md:grid-cols-3 gap-8 text-white">
             {[
               {
                 step: "01",
@@ -420,11 +427,6 @@ const handleAuthAction = () => {
               },
               {
                 step: "03",
-                title: "Verification",
-                desc: "Smart system validates reports",
-              },
-              {
-                step: "04",
                 title: "Alert & Action",
                 desc: "Notify authorities instantly",
               },
@@ -449,7 +451,7 @@ const handleAuthAction = () => {
               Making Real Impact
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              it’s a step toward a cleaner, safer future.
+              It’s a step toward a cleaner, safer future.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               {[
