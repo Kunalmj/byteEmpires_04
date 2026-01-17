@@ -133,7 +133,7 @@ const AuthPage = () => {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Leaf className="w-10 h-10 text-green-400" />
-            <span className="text-3xl font-bold text-white">EcoGuard AI</span>
+            <span className="text-3xl font-bold text-white">EcoGuard</span>
           </div>
           <p className="text-gray-400">Secure access to land pollution monitoring</p>
         </div>

@@ -177,7 +177,7 @@ const handleAuthAction = () => {
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <Leaf className="w-8 h-8 text-green-400" />
-            <span className="text-xl font-bold">EcoGuard AI</span>
+            <span className="text-xl font-bold">EcoGuard</span>
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#features" className="hover:text-green-400 transition">
@@ -395,18 +395,18 @@ const handleAuthAction = () => {
       </section>
 
       {/* How It Works */}
-      <section id="how-it-works" className="py-20 px-6 bg-gray-800/30">
+      <section id="how-it-works" className="py-20 px-6 bg-gray-800">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-4xl text-white md:text-5xl font-bold mb-4">
               How It Works
             </h2>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl text-white">
               Simple, powerful, and effective
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-4 gap-8 text-white">
             {[
               {
                 step: "01",
@@ -442,15 +442,14 @@ const handleAuthAction = () => {
       </section>
 
       {/* Impact Section */}
-      <section id="impact" className="py-20 px-6">
+      <section id="impact" className="py-20 px-6 bg-gray-800">
         <div className="max-w-7xl mx-auto">
-          <div className="bg-gradient-to-r from-green-900/50 to-blue-900/50 border border-green-500/30 rounded-3xl p-12 text-center">
+          <div className=" text-white bg-gradient-to-r from-green-900/50 to-blue-900/50 border border-green-500/30 rounded-3xl p-12 text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Making Real Impact
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Aligned with UN Sustainable Development Goals to protect our
-              planet and create a sustainable future for all
+              it’s a step toward a cleaner, safer future.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               {[
